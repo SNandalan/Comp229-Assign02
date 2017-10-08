@@ -48,7 +48,7 @@
                         <span class="icon-bar"></span>
                     </button>
 					<%--Icon image source: https://pixabay.com/en/cow-milk-farming-animal-eyes-farm-35561/--%>
-                    <a class="navbar-brand" runat="server" href="~/"><img src="Images/icon.png" width= "30px" height= "30px">&nbsp Moogle</a>
+                    <a class="navbar-brand" runat="server" href="~/"><img src="Images/icon.png" width= "25px" height= "25px">&nbsp Moogle</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">

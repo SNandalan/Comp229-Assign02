@@ -47,6 +47,7 @@ body {
 		<br />
 		<label>What kind of cow is your favourite?</label>
 		<asp:DropDownList ID="List" runat="server">
+			    <asp:ListItem Text="Please Select One" Value="" />
                 <asp:ListItem Text="Angus Cattle" Value="one" />
                 <asp:ListItem Text="Brown Swiss" Value="two" />
                 <asp:ListItem Text="Jersey Cattle" Value="three" />
