@@ -10,7 +10,7 @@ body {
 </style>
 </head>
 	<div class="jumbotron">
-        <h1><img src="Images/icon.png" width= "100px" height= "100px" alt="Survery Icon" title="Take Survey"> MOOGLE</h1>
+        <h1><img src="Images/icon.png" width= "100px" height= "100px" alt="Survery Icon" title="Moogle"> MOOGLE</h1>
         <p>Please take the following survey</p>
         <p><a href="Survey.aspx"><img src="Images/Survey.png" width= "100px" height= "100px" alt="Survery Icon" title="Take Survey"></a></p>
     </div>
