@@ -8,7 +8,6 @@ body {
 	background: url(Images/back.jpg);
 }
 #allPage {
-	border-style: solid;
 	border-radius: 10px;
 	padding:5px;
 

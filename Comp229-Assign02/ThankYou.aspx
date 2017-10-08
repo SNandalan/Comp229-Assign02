@@ -8,7 +8,6 @@ body {
 	background: url(Images/back.jpg);
 }
 #allPage {
-	border-style: solid;
 	border-radius: 10px;
 	padding:5px;
 
@@ -21,6 +20,7 @@ body {
 		Survey summary:<br />
 		Name: <%=Session["FName"] %> <%=Session["LName"] %><br />
 		Email: <%=Session["Email"] %>
+
 
 	</p>
 </div>
