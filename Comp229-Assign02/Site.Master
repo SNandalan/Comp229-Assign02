@@ -47,12 +47,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/"><img src="Images/icon.png" width= "50px" height= "50px">&nbsp Moogle</a>
+					<%--Icon image source: https://pixabay.com/en/cow-milk-farming-animal-eyes-farm-35561/--%>
+                    <a class="navbar-brand" runat="server" href="~/"><img src="Images/icon.png" width= "30px" height= "30px">&nbsp Moogle</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">Survey</a></li>
+                        <li><a runat="server" href="~/Home">Home</a></li>
+                        <li><a runat="server" href="~/Survey">Survey</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,9 +62,11 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+			<div id="allPage" style="width:980px; margin-left:auto; margin-right:auto; background:rgba(225, 225, 225, 0.9);">
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Sushmita Nandalan - COMP229 - Assignment II</p>
+                <p>&copy;- Sushmita Nandalan - COMP229 - Assignment II</p>
             </footer>
+				</div>
         </div>
 
     </form>

@@ -19,6 +19,7 @@ namespace Comp229_Assign02
 			{
 				Session["FName"] = FirstNameTxt.Text;
 				Session["LName"] = LastNameTxt.Text;
+				Session["Email"] = EmailTxt.Text;
 				Response.Redirect("ThankYou.aspx");
 			}
 		}

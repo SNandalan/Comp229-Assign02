@@ -49,13 +49,13 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator LastName;
         
         /// <summary>
-        /// Emailtxt control.
+        /// EmailTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Emailtxt;
+        protected global::System.Web.UI.WebControls.TextBox EmailTxt;
         
         /// <summary>
         /// regEmail control.
